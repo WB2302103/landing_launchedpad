@@ -22,7 +22,12 @@
   font-weight: normal;
   font-style: normal;
 }
-
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
@@ -110,7 +115,7 @@ body{
   width:1140px;
   height: 300px;
   padding: 50px 80px;
-  margin: auto;
+  margin:150px auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -140,3 +145,142 @@ body{
 .text-card h2 p{
   padding: 80px 50px;
 }
+
+
+
+
+.review-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+}
+.review-section-user{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  gap: 24px;
+
+  width: 370px;
+  background-color: white;
+  padding: 24px;
+
+  border-radius: 14px;
+}
+.review-section-text{
+  font-size: 42px;
+}
+.review-section-userimg{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 10px;
+  
+}
+.review-section-userimg img{
+  border-radius: 100%;
+}
+.review-section-user-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.review-section-userimg p{
+  color: #7f7e8f;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 640px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.contact >div{
+    width: 50%;
+}
+.contact >div > h2{
+    font-size: 97px;
+}
+.forms{
+    width: 50%;
+}
+.form > form label{
+    font-size: 18px;
+}
+.forms form{
+    display: flex;
+    flex-direction: column;
+
+}
+.forms form input, textarea{
+
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+    border: #D6DDED  solid 1px;
+}
+.forms form input{
+    padding: 5px 32px;
+    width: 500px;
+    height: 70px;
+
+}
+.forms textarea{
+    padding: 20px 22px;
+}
+.forms > form > .emailLabel , .textlLabel{
+    margin-bottom: 20px;
+}
+.forms  input::placeholder,
+    textarea::placeholder {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+    font-size: 20px;
+    color: #888;
+
+    }
+.forms > form > button{
+    width: 100%;
+    height: 62px;
+}
+footer{
+    padding: 120px 0px;
+    background-color: white;
+}
+footer > div{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+}
+footer > div h2{
+    font-size: 100px;
+    color: #4E47FF;
+}
+footer > div p{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.footerLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+
+}
+.footerLinks a{
+    text-decoration: none;
+    font-size: 16px;
+    color: gray
+}
+
