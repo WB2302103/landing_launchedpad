@@ -64,6 +64,13 @@ nav{
     border-radius: 10px;
     border: none;
     padding: 12px 36px;
+    transition: all 0.2s ease-in-out;
+}
+.primary-button:hover{
+    background-color: white;
+    color: #4E47FF;
+    border: #4E47FF solid 1px;
+
 }
 .hero-section{
 text-align: center;
